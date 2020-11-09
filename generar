@@ -1,0 +1,2 @@
+#!/bin/sh
+gmcs  -r:System.Data -r:Mono.Data.Sqlite.dll -r:MySql.Data.dll -target:library -out:Biblioteca.dll Db.cs Sistema.cs Red.cs Hash.cs News.cs Encode.cs
